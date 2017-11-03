@@ -1,0 +1,24 @@
+= Chapter 2
+
+== 2.2: Common Software Metaphors
+
+- A metaphor is more of a search light than a roadmap, more of a heuristic than an algorithm
+- For this book an algorithm is a set of instructions while a heuristic is a method for finding instructions
+- Many errors in programmings are conceptual errors, not implementation errors (esp. the big ones)
+- Metaphors allow devs to describe general cases while avoiding the inevitable codebase specifics
+
+== 2.3: Common Software Metaphors
+
+- Many metaphors exist for software dev: art, science, driving, bazaar, gardening, drowning with dinosaurs in oil, etc.
+- "Writing" itself is a metaphor: it compares code to a letter
+- It is actually a very poor analogy: letters are rarely rewritten, changed, developed in a team environment, or reused
+- Writing also downplays the planning needed in software dev
+- Farming is another poor metaphor: incremental growth is good but the rest of the process doesn't fit
+
+TIP: Sometimes certain aspects of a metaphor are spot on but if the rest doesn't match then the metaphor may not be worth using
+
+- When people talk about "growing" software, they are really talking about "accretion" (the process of slowly gaining size over time via an external process)
+- This idea is useful in software and it is related to the terms "iterative", "incremental", "adaptive" and "evolutionary"
+- The concept of writing, testing, and documenting software in small chunks is extremely useful and remains one of the best practices for software dev
+- Ultimately "Building" is probably the most useful metaphor
+- Many aspects of building, including the planning, cost of labor, and variance in preparation based on project size, all translate well to programming

@@ -1,0 +1,30 @@
+= Chaper 3: Upstream Prerequisites
+
+== Intro
+
+- Sticking to the building metaphor, builders, like devs, must review blueprints before construction
+- "Review" means something different for each kind/level of project: dog house vs house vs skyscraper
+- "Measure twice, cut once" is relevant to software too: most of the cost is in construction. Don't want to do it twice.
+
+== Importance of Prerequisites
+
+TIP: High quality developers use high quality practices.
+
+- There are many different aspects of the project's quality to attend to:
+** End quality: testing
+** Middle quality: construction
+** Beginning quality: prerequisites (essential for middle + end quality)
+
+TIP: "The methodology used should be based on choice of the latest and best, and not on ignorance. It should also be liberally laced with the old and dependable." - Harlon Mills
+
+- The main goal of preparation is to remove the major risks of the project i
+** Such as building the wrong thing!
+** The main risks to a project are poorly defined requirements and poor planning
+- Unfortunately adequate preparation is not common on software projects
+- This is often due to a lack of experience or training for the devs assigned to the project
+** Proper planning is non-trivial and should not be attempted in a void without experienced guidance and feedback
+- Developers also have a tendency to jump into code as soon as possible (for many reasons)
+- Finally management tends to undervalue preparation efforts and overvalue time spent developing
+** WIMP Syndrome: "Why isn't Mary Programming?"
+** Code on the screen gives the illusion of progress even if none is being made (or worse, progress is being made in the wrong direction)
+
