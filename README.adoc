@@ -1,0 +1,3 @@
+= Book Notes
+
+This repo contains notes/excercises from the technical books I am currently working through.
