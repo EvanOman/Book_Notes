@@ -1,0 +1,20 @@
+= Chapter 2: Types and Functions
+
+* Types are a method of telling the computer exactly what form a variable should take
+* Types impose a constraint on the set of all possible programs, allowing us to eliminate entire classes of programs before running them (much like how grammar and spelling help constrain English Sentences)
+* Category Theory is all about composing arrows and types tell us what kinds of arrows can be composed
+
+== What are types?
+
+* Types can be thought of as sets. `x :: Integer` means that the variable `x` belongs to the set of integers
+** In Haskell, `Integer` is an infinite set w/ arbitrary precision while `Int` is a finite set like you see in C++
+* Types as sets, while not perfect, is a good analogy because it introduces our first category: *Set*
+* In this category, the objects are sets and the morphisms are functions
+* Sets are a useful category because we can look inside and develop intuitions. However our goal will be to abstract away from the specifics of Set and consider its properties in terms of Categories
+* We can't directly apply mathematical rigor to Haskell, however, because Haskell needs to actually run code in order to get an answer
+* By running code we run into issues of non-termination. To handle this we will augment our type sets with a "bottom", denoted `_|_`.
+* Any kind of non-termination, including errors, can be represented by a bottom
+* This introduction, however, causes all sorts of headaches which make Haskell types not quite equivalent to Set. Thus we call the category of Haskell types and functions _Hask_.
+* Fundamentally Hask is not Set, but for our purposes we can treat them the same
+
+== Why do we need a mathematical model?
