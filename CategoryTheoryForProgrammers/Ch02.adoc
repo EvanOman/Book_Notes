@@ -18,3 +18,11 @@
 * Fundamentally Hask is not Set, but for our purposes we can treat them the same
 
 == Why do we need a mathematical model?
+* Many languages have a formal grammar which is well defined.
+* However the semantics of the language  is hard to define.
+* Tools for describing the semantics of a language exist but they are often only applicable to restricted academic languages
+* One tool, _operational semantics_, describes the function of a language via a idealized interpreter.
+* Functionally this means that the operation of code is only analyzed by simulating how it is run
+* The problem with this is that programmers are not very good trying to run code in their head
+* An alternative is _denotational semantics_ which assigns mathematical meaning to each programming construct
+* In doing so we can make semantic guarantees by "proving" things about the mathematical structures underlying our code
