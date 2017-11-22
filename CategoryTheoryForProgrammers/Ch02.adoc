@@ -17,7 +17,7 @@
 * This introduction, however, causes all sorts of headaches which make Haskell types not quite equivalent to Set. Thus we call the category of Haskell types and functions _Hask_.
 * Fundamentally Hask is not Set, but for our purposes we can treat them the same
 
-== Why do we need a mathematical model?
+== 2.4: Why do we need a mathematical model?
 * Many languages have a formal grammar which is well defined.
 * However the semantics of the language  is hard to define.
 * Tools for describing the semantics of a language exist but they are often only applicable to restricted academic languages
@@ -26,3 +26,35 @@
 * The problem with this is that programmers are not very good trying to run code in their head
 * An alternative is _denotational semantics_ which assigns mathematical meaning to each programming construct
 * In doing so we can make semantic guarantees by "proving" things about the mathematical structures underlying our code
+* Haskell is quite amenable to this type of analysis
+* Consider the factorial function given below:
+
+[code,haskell]
+----
+fact n = product [1...n]
+----
+
+* The above function can easy be modeled using denotational semantics -- but this is a cheat!! (it is just math anyway)
+* For other tasks the parallel is not as clear
+** What is the mathematical model for sending a packet over the network? 
+** For reading files?
+* These questions were hard to answer until *Eugenio Moggi* discovered a Category Theory solution via *Monads*
+* This connection allows Mathematical Proofs of correctness for code (many of which underpin the Haskell standard library)
+
+== 2.5: Pure and Dirty Functions
+* Functions which always produce the same output and do not do anything else (ie have side effects) are called *Pure Functions*
+
+QUESTION: Are all Haskell functions pure?
+
+* Monads allow effects to be modeled using pure functions
+
+== 2.6: Examples of Types
+* C++ has no empty-set type, Haskell has `Void`
+* No function can have a `Void` input type because this set has no values, meaning that the function could never be called
+* The singleton type is represented in C++ by `void`. Functions which take or returning `void` can be thought of as taking or returning the same dummy value
+* In Haskell this type (and its value) are the empty parens: `()` (also referred to as Unit)
+* In a sense, a function which maps Unit to a value is really just another way of representing that value (every value in a type has an associated Unit function)
+* When a pure function returns Unit the we no that the function is a no-op
+* Functions which have the same implementation for any type are called Parametrically Polymorphic
+* C++ and Haskell have the same Type w/ two values: `bool`/`Bool`
+* Pure functions which return `Bool` must choose between the two possible values. Such functions are called predicates
