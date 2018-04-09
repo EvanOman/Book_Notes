@@ -1,0 +1,16 @@
+= Chapter 1: Solving an Agile Manager's Dilemma
+
+.My Notes
+- The Theory Constraints tells us that methodologies must be flexible because different teams have different bottlenecks.
+- Forcing a rigid methodology on a team disrespects that team's shared context
+- "Kanban" is Japanese for "signal card", it is used to indicate available capacity
+- "Kaizen" is Japanese for "Continuous Improvement", a core philosophy of many Japanese businesses
+- The Kanban Method is an evolutionary change methodology which uses a kanban pull system, work visualization, and other tools to catalyze the introduction of Lean principles to IT operations
+
+.Author Takeaways
+- Kanban systems are from a family of approaches known as _pull_ systems
+- Eliyahu Goldratt's Drum-Buffer-Rope application of the Theory of Constrains is an alternative implementation of a pull system
+- Motivation behind implementing Pull Systems were to 1) help provide a systematic way to achieve a sustainable pace of work and 2) introduce process changes that meet minimal resistance
+- Kanban is the mechanism that underpins the Toyota Production System and its _kaizen_ approach to continuous improvement
+- The first virtual kanban system for software engineering was implemented at Microsoft in early 2004
+- Results from early Kanban implementations were encouraging with regard to achieving sustainable pace, minimizing resistance to change via an incremental evolutionary approach, and producing significant economic improvements
