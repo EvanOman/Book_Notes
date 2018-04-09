@@ -1,5 +1,7 @@
 = Kanban
 
 Title : Kanban: Successful Evolutionary Change for your Technology Business 
+
 Author : David J Anderson
+
 ISBN : 978-0-9845214-0-1 
