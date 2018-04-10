@@ -1,0 +1,32 @@
+= Chapter 2: What is the Kanban Method?
+
+.My Notes:
+* Key Properties of Kanban System:
+** Visualize Workflow
+** Limit Work-in-Progress
+** Measure and Manage Flow
+** Make process policies explicit (like acceptance criteria)
+** Use models to recognize improvement opportunities 
+* Emergent Properties of Kanban system:
+** Prioritize work by opportunity cost of delay
+** Optimize value with classes of service
+** Spread risk with capacity allocation
+** Encourage process innovation
+** Manage quantitatively
+* _Kanban is not a software methodology or project management philosophy in an of itself_
+* Kanabn requires these `^^` to be in place
+* Kanban empowers people to adjust process, it gives teams permission to evolve
+
+.Author Takeaways
+* Kanban can be used in any system where there is a need to limit quantity
+* Some Japanese parks use kanban cards to limit number of people in the park
+* The quantity of kanban signal cards in circulation limits work-in-progress
+* New work is pulled into the process by a returning signal card upon completion of work order or task
+* In IT work we are generally using a virtual kanban system as no actual card is passed around to define the limit to work in progress
+* Card walls common in agile software dev are not kanban systems
+* Kanban systems create a positive tension in the workplace that forces discussion of problems
+* The Kanban Method utilizes a kanban system as a catalyst of change
+* Kanban requires that process policies are defined explicitly
+* Kanban uses tools from various fields of knowledge to encourage analysis of problems and discovery of solutions
+* Kanban enables incremental process improvement through repeated discovery of issues affecting process performance
+* Kanban is acting as a permission giver in the software development profesison, ecouraging teams to devise context-specific process solutions rather than dogmatically following a software development lifecycle process definition or template.
