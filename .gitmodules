@@ -1,3 +1,4 @@
-[submodule "Data-Science-from-Scratch/Data-Science-from-Scratch"]
-	path = Data-Science-from-Scratch/Data-Science-from-Scratch
+[submodule "Data-Science-from-Scratch"]
+	path = Data-Science-from-Scratch
 	url = github:EvanOman/Data-Science-from-Scratch
+	branch = master
