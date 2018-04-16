@@ -1,6 +1,6 @@
 = Chapter 2: What is the Kanban Method?
 
-.My Notes:
+=== My Notes:
 * Key Properties of Kanban System:
 ** Visualize Workflow
 ** Limit Work-in-Progress
@@ -17,7 +17,7 @@
 * Kanabn requires these `^^` to be in place
 * Kanban empowers people to adjust process, it gives teams permission to evolve
 
-.Author Takeaways
+=== Author Takeaways
 * Kanban can be used in any system where there is a need to limit quantity
 * Some Japanese parks use kanban cards to limit number of people in the park
 * The quantity of kanban signal cards in circulation limits work-in-progress
