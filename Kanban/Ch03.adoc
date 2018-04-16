@@ -1,0 +1,20 @@
+= Chapter 3: A Recipe for Success
+
+=== My Notes
+
+==== Intro
+
+* "Recipe for success" gives managers a guideline for enacting change while minimizing resistance
+.. Focus on Quality
+.. Reduce WIP
+.. Deliver Often
+.. Balance Demand vs Throughput
+.. Prioritize
+.. Attack Sources of Variability
+* First step is easiest, others require skills in articulation, negotiation, psychology, sociology, and emotional intelligence
+* Developing trust is a good start, quality can help do that
+* Final step is very difficult, accomplishing this would be a sign of exceptional tech leadership
+
+==== Focus on Quality
+
+* Poor quality is often a business's biggest cost: up to 90% of time and code
