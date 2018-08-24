@@ -1,20 +1,51 @@
 = Chapter 3: A Recipe for Success
 
-=== My Notes
+== My Notes
 
-==== Intro
+=== Intro
 
-* "Recipe for success" gives managers a guideline for enacting change while minimizing resistance
-.. Focus on Quality
-.. Reduce WIP
-.. Deliver Often
-.. Balance Demand vs Throughput
-.. Prioritize
-.. Attack Sources of Variability
-* First step is easiest, others require skills in articulation, negotiation, psychology, sociology, and emotional intelligence
-* Developing trust is a good start, quality can help do that
-* Final step is very difficult, accomplishing this would be a sign of exceptional tech leadership
+	* "Recipe for success" gives managers a guideline for enacting change while minimizing resistance
+		** Focus on Quality
+		** Reduce WIP
+		** Deliver Often
+		** Balance Demand vs Throughput
+		** Prioritize
+		** Attack Sources of Variability
+	* First step is easiest, others require skills in articulation, negotiation, psychology, sociology, and emotional intelligence
+	* Developing trust is a good start, quality can help do that
+	* Final step is very difficult, accomplishing this would be a sign of exceptional tech leadership
 
-==== Focus on Quality
+=== Focus on Quality
 
-* Poor quality is often a business's biggest cost: up to 90% of time and code
+	* Poor quality is often a business's biggest cost: up to 90% of time and code
+	* Keys to improving quality:
+		** Testing
+		** Collab analysis and design
+		** Static analysis
+		** Code inspectors
+		** Design patterns
+	* Reducing the quantity of design in progress boosts software quality
+
+=== Reduce WIP and Deliver Often
+
+	* Case Study: Nokia team which limited WIP and added unit tests saw a 10x reduction in lead time and a 30x reduction on time spent on defects (also used collaboration)
+	* More WIP tends to cause poorer quality
+	* Poor performing team was better on paper, process affected more than people
+	* More releases of higher quality code build trust w/ other teams
+
+=== Balance Demand Against Throughput
+
+	* This means setting a rate of new feature acceptance
+	* Limiting WIP exposes the real bottlenecks
+	* Some slack is good: "You need slack to enable continuous improvement"
+	* "Optimizing for utilization is not desirable"
+
+=== Prioritize
+
+	* Ops should now be smooth, now focus on value not quantity
+	* Priority is a business decision, not engineering
+	* Ultimately the main metric is business value, tho this is hard to measure
+
+=== Attach Source of Variability to Improve Predictability
+
+	* "variability in the size of reqs and in the amount of effort expended on analysis, design, coding, testing, and building and delivery adversely affect throughput and cost"
