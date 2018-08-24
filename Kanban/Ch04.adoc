@@ -1,0 +1,15 @@
+= Chapter 4: From Worst to Best in Five Quarters
+
+	* Team in India had bad reputation, months of lag time and poor quality
+	* Workflow consisted of heaping work onto backlog by others
+	* More than 90% of lead time was queuing, other non-engineering waste
+	* Estimates and external test changes took a ton of time and it randomized planning
+	* Team had general rues, good to think about those explicit policies
+	* Dragos limited WIP by adding a buffering queue, managed weekly. Additionally each person had capacity of one
+	* Dragos cut estimates, instead guaranteed a minimal lead time and average costs. Also round robin to order requests
+	* :point_up: This is Dragos managing a political problem
+	* Lead time promises were met, trust was built
+	* Policies and then resources were adjusted
+	* Team noticed little difference but lead time dropped by 90%, backlog was quickly eliminated
+	* Dragos mapped a value stream, analyzed flow, set WIP limits, and implemented a pull system
+	* End to end only took 15 months
