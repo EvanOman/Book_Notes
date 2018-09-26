@@ -1,0 +1,12 @@
+= Chapter 5: A Continuous Improvement Culture
+
+=== Intro
+	* "Kaizen" is Japanese for continuous improvement
+	* Kaizen culutures seek improvement and refinement in all facets of work
+	* Key characteristics of kaizen culture:
+		** Employees are empowered and free to make decisions
+		** Failure is tolerated if in the attempt at improvement
+		** Tasks are not pushed down from the top, workers self organize around problems
+		** Team members focus on systems level thinking while making local improvements
+
+:stop_sign: MIDDLE PAGE 50 :stop_sign:
