@@ -21,6 +21,7 @@ I have no idea, but right now here are my best guesses:
     ** _All that being said_, there is definitely still a place for my daily work journaling. There the requirements and workflow are much different: the goal is more to talk through a problem and extract thoughts than to write down information which will be referenced in the future
 
 **Organizing Principles**:
+
 * Increase probability of actual note-taking :white_check_mark:
 * Allow backfilling and editing when needed :white_check_mark:
 * Increase usability of note product :white_check_mark:
